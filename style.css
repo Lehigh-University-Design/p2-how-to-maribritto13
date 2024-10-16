@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.topnav {
+  background-color: rgb(76, 122, 84);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  font-style: italic;
+  position: sticky;
+  width: 100%;
+  a {
+    padding: 20px;
+  }
+}
+
+.bottomnav {
+  background-color: rgb(76, 122, 84);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+  font-style: italic;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  a {
+    padding: 20px;
+  }
+}
+
+.bottomnavtwo {
+  background-color: rgb(76, 122, 84);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 25px;
+  font-style: italic;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  a {
+    padding: 20px;
+  }
+}
+
+a {
+  color:rgb(253, 251, 251);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgb(75, 9, 9);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(152, 87, 87);
+  height: 100%;
+}
+
+.container {
+  padding-top: 10px;
+  width: 1000px;
+  height: 80vh;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.home-image {
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
+.home-image img {
+width: 400px;
+border-radius: 20px;
+}
+
+.sub-container {
+  padding-top: 20px;
+  width: 1000px;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 18pt;
+  font-family:'Times New Roman', Times, serif;
+  display: flex;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.recipe {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 4vw;
+}
+
+.main {
+  background-color: rgb(177, 101, 60); 
+  grid-column: span 8;
+  text-align: left;
+  margin-bottom: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.sidebar {
+  grid-column: span 4;
+  background-color: rgb(177, 101, 60); 
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* margin-bottom: 20px; */
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
+}
+
+.intercontent {
+  width: 25%;
+}
